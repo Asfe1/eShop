@@ -1,0 +1,85 @@
+/* header start */
+*{
+  padding: 0;
+  margin: 0;
+}
+.header{
+  background: rgba(44, 62, 80,1.0);
+  width: 98%;
+  margin-left: 14px;
+  height: 56px;
+}
+.logo{
+  margin: 0;
+  display: block;
+  float: left;
+  color: rgba(0,0,0,0.8);
+  text-shadow: 2px 2px 7px white;
+}
+.
+/* header end */
+
+/* body start */
+body{
+  background: #f2f2f2;
+}
+.product{
+background: #ffff;
+height: 340px;
+box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+border-radius: 10px;
+font-family: sans-serif;
+position: relative;
+overflow: hidden;
+margin-bottom: 40px;
+}
+.product .img-box{
+  width: 100%;
+
+}
+.product .img-box img{
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+.product .details{
+  position: absolute;
+  bottom: -168px;
+  background: #ffff;
+  padding: 13px;
+  box-sizing: border-box;
+  transition: 0.35s;
+}
+.product:hover .details{
+  bottom: 0;
+}
+.product .details h2{
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+.product .details h2 span{
+  font-size: 14px;
+  color: #8e8e8e;
+}
+.product .details .price{
+  position: absolute;
+  top:10px;
+  right: 10px;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+.product .details p{
+  font-size: 14px;
+}
+.product .details label{
+  font-weight: bold;
+}
+.product .details a{
+  position: absolute;
+  bottom: 5px;
+  right: 45%;
+  text-decoration: none;
+}
+/* body end */
